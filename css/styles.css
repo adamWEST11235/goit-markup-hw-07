@@ -47,6 +47,7 @@ img {
 	transition-property: opacity, visibility;
 	transition-duration: 2s;
 	visibility: visible;
+	
 }
 .is-hidden {
 	pointer-events: none;
@@ -54,11 +55,12 @@ img {
 	transition-property: visibility, opacity, pointer-events;
 	opacity: 0;
 }
-.is-hidden > div {
+.is-hidden .modal--is-hidden{
 	transform: scale(0);
 	transition-property: transform;
 	transition-duration: 2s;
 }
+
 .modal {
 	position: relative;
 	width: 528px;
@@ -260,7 +262,7 @@ img {
 	height: 80px;
 	border-bottom: 1px solid #ececec;
 }
-.header__conteiner--flex {
+.header--flex {
 	display: flex;
 	align-items: center;
 	padding: 15px;
@@ -433,9 +435,7 @@ img {
 	background: #ffffff;
 	color: var(--secoundary-text-color);
 }
-.section__effective_solutions--button:active {
-	/* opacity: 0.5; */
-}
+
 .section__loremipsum {
 	display: flex;
 	justify-content: center;
