@@ -275,7 +275,7 @@ img {
 	font-size: 26px;
 	line-height: 1.2;
 	letter-spacing: 0.03em;
-	color: #000000;
+	color: #2196f3;
 	display: block;
 	padding-right: 93px;
 }
@@ -390,7 +390,7 @@ img {
 	margin: 0 auto;
 }
 
-.section__effective_solutions--title {
+.effective_solutions__title {
 	font-weight: 900;
 	font-size: 44px;
 	line-height: 1.36;
@@ -398,7 +398,6 @@ img {
 	letter-spacing: 0.06em;
 	text-transform: uppercase;
 	color: var(--text-color);
-
 	width: 696px;
 	height: 120px;
 	margin: 0px auto 30px;
@@ -410,8 +409,6 @@ img {
 	border-width: 0px;
 	cursor: pointer;
 	font-family: "Roboto", sans-serif;
-
-	/* text in box style */
 	color: var(--text-color);
 	font-weight: 700;
 	font-size: 16px;
@@ -422,7 +419,6 @@ img {
 	letter-spacing: 0.06em;
 	margin: 0 auto;
 	padding: 10px 41px;
-
 	transition-duration: 250ms;
 	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 	transition-property: color, background;

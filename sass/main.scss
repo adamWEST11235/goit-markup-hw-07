@@ -1,5 +1,7 @@
 @use "./utils/vars" as *;
 @import "./components/header";
+@import "./components/section_effective_solution";
+@import "./components/section_loremipsum";
 
 body {
 	background-color: #fff;
