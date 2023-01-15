@@ -2,15 +2,7 @@
 	display: flex;
 	justify-content: center;
 }
-.list {
-	list-style: none;
-	display: flex;
-	height: 100%;
-	gap: 30px;
-	&__item {
-		height: 300px;
-	}
-}
+
 .figure_image {
 	background-color: #f5f4fa;
 	border-radius: 4px;

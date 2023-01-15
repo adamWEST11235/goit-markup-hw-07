@@ -1,27 +1,9 @@
 @use "./utils/vars" as *;
+@import "./components/gloabal";
 @import "./components/header";
 @import "./components/section_effective_solution";
 @import "./components/section_loremipsum";
-
-body {
-	background-color: #fff;
-	font-family: "Roboto", sans-serif;
-	font-style: normal;
-	font-weight: 400;
-}
-img {
-	display: block;
-}
-* {
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
-}
-.conteiner {
-	padding: 0 15px;
-	width: 1200px;
-}
-.section {
-	padding-top: 94px;
-	padding-bottom: 94px;
-}
+@import "./components/_section_job";
+@import "./components/section_team";
+@import "./components/section_customers";
+@import "./components/footer";

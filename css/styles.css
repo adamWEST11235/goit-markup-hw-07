@@ -635,7 +635,7 @@ img {
 	display: flex;
 	justify-content: space-between;
 }
-.footer--box {
+.footer{
 	background-color: var(--secondary-brand-color);
 	display: flex;
 	justify-content: center;
@@ -689,7 +689,6 @@ img {
 .footer__social_media--box {
 	width: 206px;
 	height: 80px;
-
 	margin-left: 70px;
 }
 .footer__social_media--heading {
