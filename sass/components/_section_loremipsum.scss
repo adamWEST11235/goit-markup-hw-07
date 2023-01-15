@@ -1,4 +1,4 @@
-.loremipsum {
+.loremipsum-section{
 	display: flex;
 	justify-content: center;
 }
@@ -26,10 +26,10 @@
 		text-transform: uppercase;
 		color: $secoundary-text-color;
 	}
-    &__paragraph {
-        font-size: 14px;
-        line-height: 1.71;
-        letter-spacing: 0.03em;
-        color: $third-text-color;
-    }
+	&__paragraph {
+		font-size: 14px;
+		line-height: 1.71;
+		letter-spacing: 0.03em;
+		color: $third-text-color;
+	}
 }
