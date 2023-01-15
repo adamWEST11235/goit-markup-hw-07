@@ -15,35 +15,37 @@
 			href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
 			rel="stylesheet"
 		/>
-		<link rel="stylesheet" href="css/styles.css" />
+		<link rel="stylesheet" href="css/main.min.css" />
 		<title>Document</title>
 	</head>
 	<body>
-		<header class="header_box">
-			<div class="conteiner header__conteiner--flex">
-				<a href="index.html" class="header__logo"><span>Web</span>Studio</a>
-				<nav class="header__nav">
-					<ul class="header__nav--list">
-						<li>
-							<a href="index.html" class="header__nav--link">Agencja</a>
+		<header class="header">
+			<div class="conteiner header--flex">
+				<a href="index.html" class="logo logo--padding-r"
+					>Web<span class="logo--color1">Studio</span></a
+				>
+				<nav class="nav">
+					<ul class="nav-list">
+						<li class="nav-list__item">
+							<a href="index.html" class="nav-list__link">Agencja</a>
 						</li>
-						<li>
-							<a href="portfolio.html" class="header__nav--link active__page">Portfolio</a>
+						<li class="nav-list__item">
+							<a href="portfolio.html" class="nav-list__link active__page">Portfolio</a>
 						</li>
-						<li><a href="#" class="header__nav--link">Kontakt</a></li>
+						<li class="nav-list__item"><a href="#" class="nav-list__link">Kontakt</a></li>
 					</ul>
 				</nav>
-				<ul class="header__contact--list">
+				<ul class="contact-head">
 					<li>
-						<a href="mailto:info@devstudio.com" class="header__contact--mail"
-							><svg class="header__contact--mail_icon" width="16" height="12">
+						<a href="mailto:info@devstudio.com" class="contact-head__mail"
+							><svg class="contact-head__mail_icon" width="16" height="12">
 								<use href="./images/icons.svg#icon-envelope"></use></svg
 							><span>info@devstudio.com</span></a
 						>
 					</li>
 					<li>
-						<a href="tel:+48111111111" class="header__contact--phone"
-							><svg class="header__contact--phone_icon" width="10" height="16">
+						<a href="tel:+48111111111" class="contact-head__phone"
+							><svg class="contact-head__phone_icon" width="10" height="16">
 								<use href="./images/icons.svg#icon-smartphone"></use></svg
 							><span>+48 111 111 111</span></a
 						>
@@ -52,230 +54,230 @@
 			</div>
 		</header>
 		<main>
-			<section class="portfolio__section section">
+			<section class="section portfolio-section">
 				<div class="conteiner">
-					<ul class="portfolio__section__button--list">
+					<ul class="list portfolio-buttonlist">
 						<li>
-							<button type="button" class="portfolio__section--button">Wszystkie</button>
+							<button type="button" class="portfolio-buttonlist__item">Wszystkie</button>
 						</li>
 						<li>
-							<button type="button" class="portfolio__section--button">Strony</button>
+							<button type="button" class="portfolio-buttonlist__item">Strony</button>
 						</li>
 						<li>
-							<button type="button" class="portfolio__section--button">Aplikacje</button>
+							<button type="button" class="portfolio-buttonlist__item">Aplikacje</button>
 						</li>
 						<li>
-							<button type="button" class="portfolio__section--button">Dizajn</button>
+							<button type="button" class="portfolio-buttonlist__item">Dizajn</button>
 						</li>
 						<li>
-							<button type="button" class="portfolio__section--button">Marketing</button>
+							<button type="button" class="portfolio-buttonlist__item">Marketing</button>
 						</li>
 					</ul>
-					<ul class="portfolio__picture--list">
+					<ul class="list portfolio-picturelist">
 						<li>
-							<figure class="portfolio__box--figure">
-								<div class="imgg">
+							<figure class="project">
+								<div class="project__box">
 									<img
 										src="images/portfolio-img1.jpg"
 										height="294"
 										width="370"
 										alt="Strona internetowa na której możemy zobczyc zdjęcia trzech osób. Dwójkę dziewczyny i chłopaka"
 									/>
-									<div class="overlay">
-										<p>
+									<div class="project__overlay">
+										<p class="project__text">
 											Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut asperiores
 											provident enim fugit nihil aliquid alias omnis tempore! Libero officiis
 											sapiente unde officia mollitia quos recusandae ut! Veniam, velit harum.
 										</p>
 									</div>
 								</div>
-								<figcaption class="portfolio__box--figure_description">
-									<h4>Teachnocrack</h4>
-									<p>Strona internetowa</p>
+								<figcaption class="project-description">
+									<h4 class="project-description__title">Teachnocrack</h4>
+									<p class="project-description__type">Strona internetowa</p>
 								</figcaption>
 							</figure>
 						</li>
 						<li>
-							<figure class="portfolio__box--figure">
-								<div class="imgg">
+							<figure class="project">
+								<div class="project__box">
 									<img
 										src="images/portfolio-img2.jpg"
 										height="294"
 										width="370"
 										alt="Dwuch zawodników NBA walczy o piłkę"
 									/>
-									<div class="overlay">
-										<p>
+									<div class="project__overlay">
+										<p class="project__text">
 											Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut asperiores
 											provident enim fugit nihil aliquid alias omnis tempore! Libero officiis
 											sapiente unde officia mollitia quos recusandae ut! Veniam, velit harum.
 										</p>
 									</div>
 								</div>
-								<figcaption class="portfolio__box--figure_description">
-									<h4>Grafika New Orlean vs Golden Star</h4>
-									<p>Dizajn</p>
+								<figcaption class="project-description">
+									<h4 class="project-description__title">Grafika New Orlean vs Golden Star</h4>
+									<p class="project-description__type">Dizajn</p>
 								</figcaption>
 							</figure>
 						</li>
 						<li>
-							<figure class="portfolio__box--figure">
-								<div class="imgg">
+							<figure class="project">
+								<div class="project__box">
 									<img
 										src="images/portfolio-img3.jpg"
 										height="294"
 										width="370"
 										alt="Logo The Seafood Restaurant na którym widziemy rybę"
 									/>
-									<div class="overlay">
-										<p>
+									<div class="project__overlay">
+										<p class="project__text">
 											Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut asperiores
 											provident enim fugit nihil aliquid alias omnis tempore! Libero officiis
 											sapiente unde officia mollitia quos recusandae ut! Veniam, velit harum.
 										</p>
 									</div>
 								</div>
-								<figcaption class="portfolio__box--figure_description">
-									<h4>Restauracja Seafood</h4>
-									<p>Aplikacja</p>
+								<figcaption class="project-description">
+									<h4 class="project-description__title">Restauracja Seafood</h4>
+									<p class="project-description__type">Aplikacja</p>
 								</figcaption>
 							</figure>
 						</li>
 						<li>
-							<figure class="portfolio__box--figure">
-								<div class="imgg">
+							<figure class="project">
+								<div class="project__box">
 									<img
 										src="images/portfolio-img4.jpg"
 										height="294"
 										width="370"
 										alt="Słuchawki nauszne koloru czarnego"
 									/>
-									<div class="overlay">
-										<p>
+									<div class="project__overlay">
+										<p class="project__text">
 											Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut asperiores
 											provident enim fugit nihil aliquid alias omnis tempore! Libero officiis
 											sapiente unde officia mollitia quos recusandae ut! Veniam, velit harum.
 										</p>
 									</div>
 								</div>
-								<figcaption class="portfolio__box--figure_description">
-									<h4>Projekt Prime</h4>
-									<p>Marketing</p>
+								<figcaption class="project-description">
+									<h4 class="project-description__title">Projekt Prime</h4>
+									<p class="project-description__type">Marketing</p>
 								</figcaption>
 							</figure>
 						</li>
 						<li>
-							<figure class="portfolio__box--figure">
-								<div class="imgg">
+							<figure class="project">
+								<div class="project__box">
 									<img
 										src="images/portfolio-img5.jpg"
 										height="294"
 										width="370"
 										alt="Dwa pudełka, jedno białe i większe drugie brązowe mniejsze"
 									/>
-									<div class="overlay">
-										<p>
+									<div class="project__overlay">
+										<p class="project__text">
 											Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut asperiores
 											provident enim fugit nihil aliquid alias omnis tempore! Libero officiis
 											sapiente unde officia mollitia quos recusandae ut! Veniam, velit harum.
 										</p>
 									</div>
 								</div>
-								<figcaption class="portfolio__box--figure_description">
-									<h4>Projekt Boxes</h4>
-									<p>Aplikacja</p>
+								<figcaption class="project-description">
+									<h4 class="project-description__title">Projekt Boxes</h4>
+									<p class="project-description__type">Aplikacja</p>
 								</figcaption>
 							</figure>
 						</li>
 						<li>
-							<figure class="portfolio__box--figure">
-								<div class="imgg">
+							<figure class="project">
+								<div class="project__box">
 									<img
 										src="images/portfolio-img6.jpg"
 										height="294"
 										width="370"
 										alt="Monitor na którym widzimy wyświetloną stronę internetową "
 									/>
-									<div class="overlay">
-										<p>
+									<div class="project__overlay">
+										<p class="project__text">
 											Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut asperiores
 											provident enim fugit nihil aliquid alias omnis tempore! Libero officiis
 											sapiente unde officia mollitia quos recusandae ut! Veniam, velit harum.
 										</p>
 									</div>
 								</div>
-								<figcaption class="portfolio__box--figure_description">
-									<h4>Inspiration has no Borders</h4>
-									<p>Strona internetowa</p>
+								<figcaption class="project-description">
+									<h4 class="project-description__title">Inspiration has no Borders</h4>
+									<p class="project-description__type">Strona internetowa</p>
 								</figcaption>
 							</figure>
 						</li>
 						<li>
-							<figure class="portfolio__box--figure">
-								<div class="imgg">
+							<figure class="project">
+								<div class="project__box">
 									<img
 										src="images/portfolio-img7.jpg"
 										height="294"
 										width="370"
 										alt="Magazyn Limit Edition "
 									/>
-									<div class="overlay">
-										<p>
+									<div class="project__overlay">
+										<p class="project__text">
 											Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut asperiores
 											provident enim fugit nihil aliquid alias omnis tempore! Libero officiis
 											sapiente unde officia mollitia quos recusandae ut! Veniam, velit harum.
 										</p>
 									</div>
 								</div>
-								<figcaption class="portfolio__box--figure_description">
-									<h4>Magazyn Limited Edition</h4>
-									<p>Dizajn</p>
+								<figcaption class="project-description">
+									<h4 class="project-description__title">Magazyn Limited Edition</h4>
+									<p class="project-description__type">Dizajn</p>
 								</figcaption>
 							</figure>
 						</li>
 						<li>
-							<figure class="portfolio__box--figure">
-								<div class="imgg">
+							<figure class="project">
+								<div class="project__box">
 									<img
 										src="images/portfolio-img8.jpg"
 										height="294"
 										width="370"
 										alt="Pszywieszka koloru białego z napisem L A B E L T A G"
 									/>
-									<div class="overlay">
-										<p>
+									<div class="project__overlay">
+										<p class="project__text">
 											Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut asperiores
 											provident enim fugit nihil aliquid alias omnis tempore! Libero officiis
 											sapiente unde officia mollitia quos recusandae ut! Veniam, velit harum.
 										</p>
 									</div>
 								</div>
-								<figcaption class="portfolio__box--figure_description">
-									<h4>Projekt LAB</h4>
-									<p>Marketing</p>
+								<figcaption class="project-description">
+									<h4 class="project-description__title">Projekt LAB</h4>
+									<p class="project-description__type">Marketing</p>
 								</figcaption>
 							</figure>
 						</li>
 						<li>
-							<figure class="portfolio__box--figure">
-								<div class="imgg">
+							<figure class="project">
+								<div class="project__box">
 									<img
 										src="images/portfolio-img9.jpg"
 										height="294"
 										width="370"
 										alt="Laptop z wyswietloną stroną GROWING BUSINESS"
 									/>
-									<div class="overlay">
-										<p>
+									<div class="project__overlay">
+										<p class="project__text">
 											Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut asperiores
 											provident enim fugit nihil aliquid alias omnis tempore! Libero officiis
 											sapiente unde officia mollitia quos recusandae ut! Veniam, velit harum.
 										</p>
 									</div>
 								</div>
-								<figcaption class="portfolio__box--figure_description">
-									<h4>Growing Business</h4>
-									<p>Aplikacja</p>
+								<figcaption class="project-description">
+									<h4 class="project-description__title">Growing Business</h4>
+									<p class="project-description__type">Aplikacja</p>
 								</figcaption>
 							</figure>
 						</li>
@@ -283,32 +285,29 @@
 				</div>
 			</section>
 		</main>
-		<footer class="footer--box">
-			<div class="conteiner footer_flex">
+		<footer class="footer">
+			<div class="conteiner footer-conteiner">
 				<div>
-					<h3 class="footer--heading"><span>Web</span>Studio</h3>
-					<address class="footer--address">m. Warszawa, Aleje Jerozolimskie 21</address>
-					<ul class="footer--list">
-						<li>
-							<a href="mailto:info@example.com" class="footer__contact--mail">info@example.com</a>
+					<a href="index.html" class="logo">Web<span class="logo--color2">Studio</span></a>
+					<address class="address-footer">m. Warszawa, Aleje Jerozolimskie 21</address>
+					<ul class="contact-footer">
+						<li class="contact-footer__item">
+							<a href="mailto:info@example.com" class="contact-footer__mail">info@example.com</a>
 						</li>
-						<li>
-							<a href="tel:+48111111111" class="footer__contact--phone">+48 111 111 111</a>
+						<li class="contact-footer__item">
+							<a href="tel:+48111111111" class="contact-footer__phone">+48 111 111 111</a>
 						</li>
 					</ul>
 				</div>
-				<div class="footer__social_media--box">
-					<h3 class="footer__social_media--heading">Dołącz do nas</h3>
-					<ul class="footer__social_media--list">
+				<div class="socialmedia-footer">
+					<h3 class="socialmedia-footer__title">Dołącz do nas</h3>
+					<ul class="socialmedia-list">
 						<li>
-							<a
-								class="footer__social_media--link"
-								href="https://www.instagram.com/"
-								target="_blank"
+							<a class="socialmedia-link" href="https://www.instagram.com/" target="_blank"
 								><svg width="44" height="44">
-									<circle class="footer__social_media--circle" r="22" cx="22" cy="22" />
+									<circle class="socialmedia-link__circle--footer" r="22" cx="22" cy="22" />
 									<use
-										class="footer__social_media--icon"
+										class="socialmedia-link__icon--footer"
 										width="22"
 										height="22"
 										x="11"
@@ -319,11 +318,11 @@
 							</a>
 						</li>
 						<li>
-							<a class="footer__social_media--link" href="https://twitter.com/" target="_blank">
+							<a class="socialmedia-link" href="https://twitter.com/" target="_blank">
 								<svg width="44" height="44">
-									<circle class="footer__social_media--circle" r="22" cx="22" cy="22" />
+									<circle class="socialmedia-link__circle--footer" r="22" cx="22" cy="22" />
 									<use
-										class="footer__social_media--icon"
+										class="socialmedia-link__icon--footer"
 										width="22"
 										height="22"
 										x="11"
@@ -334,11 +333,11 @@
 							</a>
 						</li>
 						<li>
-							<a class="footer__social_media--link" href="https://facebook.com/" target="_blank">
+							<a class="socialmedia-link" href="https://facebook.com/" target="_blank">
 								<svg width="44" height="44">
-									<circle class="footer__social_media--circle" r="22" cx="22" cy="22" />
+									<circle class="socialmedia-link__circle--footer" r="22" cx="22" cy="22" />
 									<use
-										class="footer__social_media--icon"
+										class="socialmedia-link__icon--footer"
 										width="22"
 										height="22"
 										x="11"
@@ -349,15 +348,11 @@
 							</a>
 						</li>
 						<li>
-							<a
-								class="footer__social_media--link"
-								href="https://www.linkedin.com/"
-								target="_blank"
-							>
+							<a class="socialmedia-link" href="https://www.linkedin.com/" target="_blank">
 								<svg width="44" height="44">
-									<circle class="footer__social_media--circle" r="22" cx="22" cy="22" />
+									<circle class="socialmedia-link__circle--footer" r="22" cx="22" cy="22" />
 									<use
-										class="footer__social_media--icon"
+										class="socialmedia-link__icon--footer"
 										width="22"
 										height="22"
 										x="11"
@@ -369,18 +364,13 @@
 						</li>
 					</ul>
 				</div>
-				<div class="footer__newsletter">
-					<h3 class="footer__newsletter--heading">Zapisz się do newslettera</h3>
-					<form class="footer__newsletter--form">
-						<input
-							class="footer__newsletter--email"
-							type="email"
-							name="email"
-							placeholder="E-mail"
-						/>
-						<button class="footer__newsletter--button">
-							<span>Zapisz się</span>
-							<svg class="footer__newsletter--svg" width="24" height="24">
+				<div class="newsletter">
+					<h3 class="newsletter__title">Zapisz się do newslettera</h3>
+					<form class="form-newsletter">
+						<input class="form-newsletter__input" type="email" name="email" placeholder="E-mail" />
+						<button class="button-footer">
+							<span class="button-footer__text">Zapisz się</span>
+							<svg class="button-footer__img" width="24" height="24">
 								<use href="./images/icons.svg#icon-send"></use>
 							</svg>
 						</button>
@@ -388,6 +378,5 @@
 				</div>
 			</div>
 		</footer>
-		<script src="./js/modal.js"></script>
 	</body>
 </html>
