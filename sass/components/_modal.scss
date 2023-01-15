@@ -101,7 +101,7 @@
 		}
 		&:hover,
 		&:focus {
-			order: 1px solid $color-hover;
+			border: 1px solid $color-hover;
 		}
 	}
 	&__img {
