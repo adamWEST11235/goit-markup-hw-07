@@ -3,6 +3,9 @@
 	display: flex;
 	justify-content: center;
 	padding: 60px 0 60px;
+	&__container{
+		display: flex;
+	}
 }
 .footer-conteiner {
 	display: flex;
@@ -128,7 +131,7 @@
 		color: $secoundary-text-color;
 	}
 	&:hover &__img,
-	&:focus &__img{
+	&:focus &__img {
 		fill: $secoundary-text-color;
 	}
 	&__text {

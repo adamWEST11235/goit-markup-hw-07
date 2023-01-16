@@ -10,16 +10,15 @@
 		align-items: center;
 		padding: 15px;
 	}
-
 }
 .nav {
 	list-style: none;
 	display: flex;
-}
-.nav-list {
-	list-style: none;
-	display: flex;
 	gap: 46px;
+	&--flex {
+		list-style: none;
+		display: flex;
+	}
 
 	&__link {
 		text-decoration: none;
@@ -33,9 +32,7 @@
 		transition-duration: 250ms;
 		transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 		transition-property: color;
-		&:hover {
-			color: $color-hover;
-		}
+		&:hover,
 		&:focus {
 			color: $color-hover;
 		}
@@ -61,10 +58,6 @@
 	margin-left: auto;
 	gap: 50px;
 
-	&__mail_icon {
-		margin-right: 10px;
-	}
-
 	&__mail {
 		text-decoration: none;
 		font-weight: 500;
@@ -78,19 +71,16 @@
 		transition-duration: 250ms;
 		transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 		transition-property: color, fill;
-		&:hover {
-			color: $color-hover;
-			fill: $color-hover;
-		}
+		&:hover,
 		&:focus {
 			color: $color-hover;
 			fill: $color-hover;
 		}
+		&__icon {
+			margin-right: 10px;
+		}
 	}
 
-	&__phone_icon {
-		margin-right: 10px;
-	}
 	&__phone {
 		text-decoration: none;
 		font-weight: 500;
@@ -103,13 +93,13 @@
 		transition-duration: 250ms;
 		transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 		transition-property: color, fill;
-		&:hover {
-			color: $color-hover;
-			fill: $color-hover;
-		}
+		&:hover,
 		&:focus {
 			color: $color-hover;
 			fill: $color-hover;
+		}
+		&__icon {
+			margin-right: 10px;
 		}
 	}
 }

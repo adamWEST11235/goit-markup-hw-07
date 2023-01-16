@@ -22,7 +22,7 @@
 	line-height: 1.18;
 	text-align: center;
 	letter-spacing: 0.03em;
-	&__description{
+	&__description {
 		padding-bottom: 30px;
 	}
 	&__nickname {
@@ -39,10 +39,8 @@
 .socialmedia-list {
 	display: flex;
 	justify-content: center;
-	gap:10px;
+	gap: 10px;
 	list-style: none;
-
-	
 }
 .socialmedia-link {
 	&:hover &__circle,

@@ -77,6 +77,24 @@
 		letter-spacing: 0.03em;
 		color: $text-color;
 	}
+	&__description {
+		border: 1px solid #eeeeee;
+		&__title {
+			font-weight: 700;
+			font-size: 18px;
+			line-height: 2;
+			letter-spacing: 0.06em;
+			color: $secoundary-text-color;
+			padding: 20px 24px 2px;
+		}
+		&__type {
+			font-size: 16px;
+			line-height: 1.88;
+			letter-spacing: 0.03em;
+			color: $third-text-color;
+			padding: 2px 24px 20px;
+		}
+	}
 }
 .project-description {
 	border: 1px solid #eeeeee;
