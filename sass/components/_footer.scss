@@ -3,12 +3,9 @@
 	display: flex;
 	justify-content: center;
 	padding: 60px 0 60px;
-	&__container{
+	&__container {
 		display: flex;
 	}
-}
-.footer-conteiner {
-	display: flex;
 }
 .contact-footer {
 	list-style: none;
@@ -43,15 +40,16 @@
 			color: $color-hover;
 		}
 	}
+	&__address {
+		font-size: 14px;
+		line-height: 1.71;
+		letter-spacing: 0.03em;
+		color: #ffffff;
+		margin-top: 20px;
+		font-style: normal;
+	}
 }
-.address-footer {
-	font-size: 14px;
-	line-height: 1.71;
-	letter-spacing: 0.03em;
-	color: #ffffff;
-	margin-top: 20px;
-	font-style: normal;
-}
+
 .socialmedia-footer {
 	width: 206px;
 	height: 80px;
@@ -67,14 +65,7 @@
 		margin-bottom: 20px;
 	}
 }
-.socialmedia-link__circle--footer {
-	@extend .socialmedia-link__circle;
-	fill: #ffffff1a;
-}
-.socialmedia-link__icon--footer {
-	@extend .socialmedia-link__icon;
-	fill: #fff;
-}
+
 .newsletter {
 	margin-left: 78px;
 	&__title {
@@ -87,22 +78,22 @@
 		margin-top: 12px;
 		margin-bottom: 20px;
 	}
-}
-.form-newsletter {
-	height: 50px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	&__input {
-		width: 350px;
-		height: auto;
-		border: 1px solid rgba(255, 255, 255, 0.3);
-		filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-		border-radius: 4px;
-		background-color: transparent;
-		color: $text-color;
-		padding: 15px 16px;
-		margin-right: 12px;
+	&__form {
+		height: 50px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		&__input {
+			width: 350px;
+			height: auto;
+			border: 1px solid rgba(255, 255, 255, 0.3);
+			filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+			border-radius: 4px;
+			background-color: transparent;
+			color: $text-color;
+			padding: 15px 16px;
+			margin-right: 12px;
+		}
 	}
 }
 .button-footer {
@@ -130,10 +121,7 @@
 		background: #ffffff;
 		color: $secoundary-text-color;
 	}
-	&:hover &__img,
-	&:focus &__img {
-		fill: $secoundary-text-color;
-	}
+
 	&__text {
 		height: 24px;
 		justify-content: center;
@@ -150,5 +138,9 @@
 		transition-duration: 250ms;
 		transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 		transition-property: fill;
+		.button-footer:focus &,
+		.button-footer:hover & {
+			fill: $secoundary-text-color;
+		}
 	}
 }

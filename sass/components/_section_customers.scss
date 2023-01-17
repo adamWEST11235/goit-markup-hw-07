@@ -1,4 +1,4 @@
-.section-customers {
+.customers {
 	display: flex;
 	justify-content: center;
 
@@ -10,13 +10,13 @@
 		letter-spacing: 0.03em;
 		margin-bottom: 50px;
 	}
-}
-.customers-list {
-	list-style: none;
-	display: flex;
-	justify-content: space-between;
-	gap: 26px;
-	&__img {
+	&__list {
+		list-style: none;
+		display: flex;
+		justify-content: space-between;
+		gap: 26px;
+	}
+	&__item {
 		width: 172px;
 		height: 92px;
 		fill: #afb1b8;

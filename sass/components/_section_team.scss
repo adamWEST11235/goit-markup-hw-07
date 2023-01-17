@@ -1,4 +1,4 @@
-.section-team {
+.team {
 	background-color: #f5f4fa;
 	display: flex;
 	justify-content: center;
@@ -12,7 +12,7 @@
 		padding-bottom: 50px;
 	}
 }
-.figure-profile {
+.profile {
 	background: #ffffff;
 	box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
 		0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -34,34 +34,5 @@
 	&__job {
 		color: $third-text-color;
 		margin-bottom: 16px;
-	}
-}
-.socialmedia-list {
-	display: flex;
-	justify-content: center;
-	gap: 10px;
-	list-style: none;
-}
-.socialmedia-link {
-	&:hover &__circle,
-	&:focus &__circle {
-		fill: $color-hover;
-	}
-
-	&:hover &__icon,
-	&:focus &__icon {
-		fill: $text-color;
-	}
-	&__circle {
-		fill: #ffffff;
-		transition-duration: 250ms;
-		transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-		transition-property: fill;
-	}
-	&__icon {
-		fill: #afb1b8;
-		transition-duration: 250ms;
-		transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-		transition-property: fill;
 	}
 }

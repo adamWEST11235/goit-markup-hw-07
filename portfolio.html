@@ -54,26 +54,26 @@
 			</div>
 		</header>
 		<main>
-			<section class="section portfolio-section">
+			<section class="section portfolio">
 				<div class="container">
-					<ul class="list portfolio-buttonlist">
+					<ul class="list portfolio__buttonlist">
 						<li>
-							<button type="button" class="portfolio-buttonlist__item">Wszystkie</button>
+							<button type="button" class="portfolio__button">Wszystkie</button>
 						</li>
 						<li>
-							<button type="button" class="portfolio-buttonlist__item">Strony</button>
+							<button type="button" class="portfolio__button">Strony</button>
 						</li>
 						<li>
-							<button type="button" class="portfolio-buttonlist__item">Aplikacje</button>
+							<button type="button" class="portfolio__button">Aplikacje</button>
 						</li>
 						<li>
-							<button type="button" class="portfolio-buttonlist__item">Dizajn</button>
+							<button type="button" class="portfolio__button">Dizajn</button>
 						</li>
 						<li>
-							<button type="button" class="portfolio-buttonlist__item">Marketing</button>
+							<button type="button" class="portfolio__button">Marketing</button>
 						</li>
 					</ul>
-					<ul class="list portfolio-picturelist">
+					<ul class="list portfolio__projects">
 						<li>
 							<figure class="project">
 								<div class="project__box">
@@ -92,8 +92,8 @@
 									</div>
 								</div>
 								<figcaption class="project__description">
-									<h4 class="project-description__title">Teachnocrack</h4>
-									<p class="project-description__type">Strona internetowa</p>
+									<h4 class="project__description__title">Teachnocrack</h4>
+									<p class="project__description__type">Strona internetowa</p>
 								</figcaption>
 							</figure>
 						</li>
@@ -115,8 +115,8 @@
 									</div>
 								</div>
 								<figcaption class="project__description">
-									<h4 class="project-description__title">Grafika New Orlean vs Golden Star</h4>
-									<p class="project-description__type">Dizajn</p>
+									<h4 class="project__description__title">Grafika New Orlean vs Golden Star</h4>
+									<p class="project__description__type">Dizajn</p>
 								</figcaption>
 							</figure>
 						</li>
@@ -138,8 +138,8 @@
 									</div>
 								</div>
 								<figcaption class="project__description">
-									<h4 class="project-description__title">Restauracja Seafood</h4>
-									<p class="project-description__type">Aplikacja</p>
+									<h4 class="project__description__title">Restauracja Seafood</h4>
+									<p class="project__description__type">Aplikacja</p>
 								</figcaption>
 							</figure>
 						</li>
@@ -161,8 +161,8 @@
 									</div>
 								</div>
 								<figcaption class="project__description">
-									<h4 class="project-description__title">Projekt Prime</h4>
-									<p class="project-description__type">Marketing</p>
+									<h4 class="project__description__title">Projekt Prime</h4>
+									<p class="project__description__type">Marketing</p>
 								</figcaption>
 							</figure>
 						</li>
@@ -184,8 +184,8 @@
 									</div>
 								</div>
 								<figcaption class="project__description">
-									<h4 class="project-description__title">Projekt Boxes</h4>
-									<p class="project-description__type">Aplikacja</p>
+									<h4 class="project__description__title">Projekt Boxes</h4>
+									<p class="project__description__type">Aplikacja</p>
 								</figcaption>
 							</figure>
 						</li>
@@ -207,8 +207,8 @@
 									</div>
 								</div>
 								<figcaption class="project__description">
-									<h4 class="project-description__title">Inspiration has no Borders</h4>
-									<p class="project-description__type">Strona internetowa</p>
+									<h4 class="project__description__title">Inspiration has no Borders</h4>
+									<p class="project__description__type">Strona internetowa</p>
 								</figcaption>
 							</figure>
 						</li>
@@ -230,8 +230,8 @@
 									</div>
 								</div>
 								<figcaption class="project__description">
-									<h4 class="project-description__title">Magazyn Limited Edition</h4>
-									<p class="project-description__type">Dizajn</p>
+									<h4 class="project__description__title">Magazyn Limited Edition</h4>
+									<p class="project__description__type">Dizajn</p>
 								</figcaption>
 							</figure>
 						</li>
@@ -253,8 +253,8 @@
 									</div>
 								</div>
 								<figcaption class="project__description">
-									<h4 class="project-description__title">Projekt LAB</h4>
-									<p class="project-description__type">Marketing</p>
+									<h4 class="project__description__title">Projekt LAB</h4>
+									<p class="project__description__type">Marketing</p>
 								</figcaption>
 							</figure>
 						</li>
@@ -276,8 +276,8 @@
 									</div>
 								</div>
 								<figcaption class="project__description">
-									<h4 class="project-description__title">Growing Business</h4>
-									<p class="project-description__type">Aplikacja</p>
+									<h4 class="project__description__title">Growing Business</h4>
+									<p class="project__description__type">Aplikacja</p>
 								</figcaption>
 							</figure>
 						</li>
@@ -289,7 +289,7 @@
 			<div class="container footer__container">
 				<div>
 					<a href="index.html" class="logo">Web<span class="logo--color2">Studio</span></a>
-					<address class="address-footer">m. Warszawa, Aleje Jerozolimskie 21</address>
+					<address class="contact-footer__address">m. Warszawa, Aleje Jerozolimskie 21</address>
 					<ul class="contact-footer">
 						<li class="contact-footer__item">
 							<a href="mailto:info@example.com" class="contact-footer__mail">info@example.com</a>
@@ -301,13 +301,18 @@
 				</div>
 				<div class="socialmedia-footer">
 					<h3 class="socialmedia-footer__title">Dołącz do nas</h3>
-					<ul class="socialmedia-list">
+					<ul class="socialmedia">
 						<li>
-							<a class="socialmedia-link" href="https://www.instagram.com/" target="_blank"
+							<a class="socialmedia__link" href="https://www.instagram.com/" target="_blank"
 								><svg width="44" height="44">
-									<circle class="socialmedia-link__circle--footer" r="22" cx="22" cy="22" />
+									<circle
+										class="socialmedia__circle socialmedia__circle--footer"
+										r="22"
+										cx="22"
+										cy="22"
+									/>
 									<use
-										class="socialmedia-link__icon--footer"
+										class="socialmedia__icon socialmedia__icon--footer"
 										width="22"
 										height="22"
 										x="11"
@@ -318,11 +323,16 @@
 							</a>
 						</li>
 						<li>
-							<a class="socialmedia-link" href="https://twitter.com/" target="_blank">
+							<a class="socialmedia__link" href="https://twitter.com/" target="_blank">
 								<svg width="44" height="44">
-									<circle class="socialmedia-link__circle--footer" r="22" cx="22" cy="22" />
+									<circle
+										class="socialmedia__circle socialmedia__circle--footer"
+										r="22"
+										cx="22"
+										cy="22"
+									/>
 									<use
-										class="socialmedia-link__icon--footer"
+										class="socialmedia__icon socialmedia__icon--footer"
 										width="22"
 										height="22"
 										x="11"
@@ -333,11 +343,16 @@
 							</a>
 						</li>
 						<li>
-							<a class="socialmedia-link" href="https://facebook.com/" target="_blank">
+							<a class="socialmedia__link" href="https://facebook.com/" target="_blank">
 								<svg width="44" height="44">
-									<circle class="socialmedia-link__circle--footer" r="22" cx="22" cy="22" />
+									<circle
+										class="socialmedia__circle socialmedia__circle--footer"
+										r="22"
+										cx="22"
+										cy="22"
+									/>
 									<use
-										class="socialmedia-link__icon--footer"
+										class="socialmedia__icon socialmedia__icon--footer"
 										width="22"
 										height="22"
 										x="11"
@@ -348,11 +363,16 @@
 							</a>
 						</li>
 						<li>
-							<a class="socialmedia-link" href="https://www.linkedin.com/" target="_blank">
+							<a class="socialmedia__link" href="https://www.linkedin.com/" target="_blank">
 								<svg width="44" height="44">
-									<circle class="socialmedia-link__circle--footer" r="22" cx="22" cy="22" />
+									<circle
+										class="socialmedia__circle socialmedia__circle--footer"
+										r="22"
+										cx="22"
+										cy="22"
+									/>
 									<use
-										class="socialmedia-link__icon--footer"
+										class="socialmedia__icon socialmedia__icon--footer"
 										width="22"
 										height="22"
 										x="11"
@@ -366,8 +386,8 @@
 				</div>
 				<div class="newsletter">
 					<h3 class="newsletter__title">Zapisz się do newslettera</h3>
-					<form class="form-newsletter">
-						<input class="form-newsletter__input" type="email" name="email" placeholder="E-mail" />
+					<form class="newsletter__form">
+						<input class="newsletter__form__input" type="email" name="email" placeholder="E-mail" />
 						<button class="button-footer">
 							<span class="button-footer__text">Zapisz się</span>
 							<svg class="button-footer__img" width="24" height="24">
